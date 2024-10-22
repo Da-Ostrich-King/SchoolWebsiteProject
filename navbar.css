@@ -1,0 +1,82 @@
+.NavBar {
+    background-color: #2e4855;
+    border-radius: 4;
+    border-width: 4;
+    position: sticky;
+    top: 0;
+}
+
+.NavBarItem {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3c5d6e;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    margin: 6px;
+}
+
+.NavBarItem:hover,
+.NavBarItem:focus {
+    background-color: #c2c7c700;
+    border-color: #7aa8b7;
+}
+
+
+.ProjectsDropdown {
+    position: relative;
+    display: inline-block;    
+}
+
+.ProjectsDropdownBtn {
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3c5d6e;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    margin: 6px;
+    font-size: medium;
+    padding-top: 7px;
+}
+
+.ProjectsDropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: medium;
+    transition: 0.3s;
+}
+
+.ProjectsDropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #3c5d6e;
+    transition: 0.3s;
+}
+
+.ProjectsDropdownContent a:hover {
+    background-color: #2e4855;
+    border-color: #7aa8b7;
+}
+
+.ProjectsDropdown:hover .ProjectsDropdownContent {
+  display: block;
+}
+
+.ProjectsDropdown:hover .ProjectsDropdownBtn {
+    background-color: #c2c7c700;
+    border-color: #7aa8b7;
+}
