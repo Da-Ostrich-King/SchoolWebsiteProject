@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #23232f;
+    color: #dddddd;
+    /*Debug*/
+    /* outline: dashed 2px greenyellow; */
+}
+
+.Content {
+    padding-top: 24px;
+    margin: 0 auto;
+    /*Debug*/
+    /* outline: dashed 2px greenyellow;  */
+    width: 60%;
+}
+
+.ContentItem {
+    width: fit-content;
+    margin: 0 auto;
+}
