@@ -25,6 +25,27 @@ th {
     padding: 5px;
 }
 
+.TableButton {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3c5d6e;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    margin: 6px;
+}
+
+.TableButton:hover,
+.TableButton:focus {
+    background-color: #c2c7c700;
+    border-color: #7aa8b7;
+}
+
+
 
 .ContentItem#table {
     /*Debug*/
