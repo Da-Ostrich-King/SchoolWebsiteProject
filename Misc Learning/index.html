@@ -15,27 +15,14 @@
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script> 
             $(function(){
-              $("#includedContent").load("../navbar.html"); 
+              $("#NavBar").load("/navbar.html"); 
             });
         </script>
  
 
     </head>
     <body>
-        <!--Navigation Bar Begin-->
-        <div class="NavBar">
-            <a class="NavBarItem" href="/index.html"><span>Home</span></a>
-            <div class="ProjectsDropdown">
-                <button class="ProjectsDropdownBtn">Projects</button>
-                <div class="ProjectsDropdownContent">
-                    <a href="/Celebrity Website/index.html">Celebrity Website</a>
-                    <a href="/Misc Learning/index.html">Table</a>
-                </div>
-            </div>
-        </div>
-        <!--Navigation Bar End-->
-
-        <div id="includedContent"></div>
+        <div id="NavBar"></div>
 
         <div class="Content">
             <div id="table" class="ContentItem">

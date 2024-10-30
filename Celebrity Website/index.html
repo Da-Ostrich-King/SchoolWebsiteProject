@@ -10,24 +10,20 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
         <link rel="manifest" href="/resources/icons/">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+            $(function(){
+              $("#NavBar").load("/navbar.html"); 
+            });
+        </script>
+
         <title>Ryan Reynolds</title>
 
 
     </head>
     <body>
-        <!--Navigation Bar Begin-->
-        <div class="NavBar">
-            <a class="NavBarItem" href="/index.html"><span>Home</span></a>
-            <div class="ProjectsDropdown">
-                <button class="ProjectsDropdownBtn">Projects</button>
-                <div class="ProjectsDropdownContent">
-                    <a href="/Celebrity Website/index.html">Celebrity Website</a>
-                    <a href="/Misc Learning/index.html">Table</a>
-                </div>
-            </div>
-        </div>
-        <!--Navigation Bar End-->
 
+        <div id="NavBar"></div>
         
         <div class="ParagraphHeader">
             <h1>Ryan Reynolds</h1>
