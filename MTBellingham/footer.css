@@ -1,0 +1,49 @@
+.Footer {
+    background-color: #2e4855;
+    border-radius: 4;
+    border-width: 4;
+    position: relative;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    
+    bottom: 2px;
+}
+
+.FooterItemLink {
+    display: inline-block;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3c5d6e;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    margin: 6px;
+    font-size: small;
+}
+
+
+.FooterItemLink:hover,
+.FooterItemLink:focus {
+    background-color: #c2c7c700;
+    border-color: #7aa8b7;
+}
+
+.FooterDescription {
+    margin: auto;
+    font-size: small;
+
+}
+
+.FooterItem {
+    width: 25%;
+    padding-left: 15%;
+    padding-right: 5%;
+    display: inline-table;
+    margin: auto;
+}
