@@ -9,7 +9,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
         <link rel="manifest" href="/resources/icons/">
         
-        
+        <!--load navbar from extern html-->
         <link rel="stylesheet" href="/MTBellingham/navbar.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script> 
@@ -18,8 +18,9 @@
             });
         </script>
 
-        <link rel="stylesheet" href="/MTBellingham/footer.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--same for footer-->
+        <link rel="stylesheet" href="/MTBellingham/footer.css"> <!--css-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!--load-->
         <script> 
             $(function(){
               $("#Footer").load("/MTBellingham/footer.html"); 
@@ -35,22 +36,27 @@
                 <h1>Things to Do in Bellingham While You Are Here</h1>
                 <h2>Places to Eat Before and After a Ride</h1>
                 <ul>
-                    <li>Lafeens Donut Shop</li>
+                    <li><a href="http://places.singleplatform.com/lafeens-family-pride-donuts-and-ice-cream-llc/menu?ref=google" class="ExternLink">Lafeens Donut Shop</a></li>
                     <p>
                         Lafeens Donut Shop is a donut shop on Lakeway Road right next to were you enter and exit the north side Galbraith Mountain. They have amazing donuts
                         and drinks and is a great place to get your sugar fix before a ride.
                     </p>
-                    <img src="/resources/images/MTBellingham Lafeens Image.png">
-                    <li>Davinci's</li>
+                    <img src="/resources/images/MTBellingham Lafeens Image.png" height="10%">
+                    <li><a href="https://www.davincismkt.com/" class="ExternLink">Davinci's Market</a></li>
                     <p>
-                        Davinci's is a sand
+                        Davinci's Market was opened in September of 2000 by Kevin and Kim Weatherill. 
+                        With over 50 years of independent food retailing experience we knew that our business could be a lot better than the typical c-store franchise 
+                        programs you find on every corner. Everyday we are working to build a fun shopping and high food quality experience for our neighborhood friends.
+                    </p>
+                    <p>
+                        Davinci's Market is right next door to Lafeens Donut Shop so you can follow the same map for Lafeen's to the north side trails.
                     </p>
                 </ul>
             </div>
 
         </div>
 
-
+        <!--footer placement spot-->
         <div id="Footer"></div>
 
     </body>

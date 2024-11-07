@@ -2,12 +2,10 @@
     background-color: #2e4855;
     border-radius: 4;
     border-width: 4;
-    position: relative;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
     
     bottom: 2px;
 }

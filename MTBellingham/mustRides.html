@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/MTBellingham/mustRides.css">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
+        <link rel="manifest" href="/resources/icons/">
+        
+        <!--load navbar from extern html-->
+        <link rel="stylesheet" href="/MTBellingham/navbar.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+            $(function(){
+              $("#NavBar").load("/MTBellingham/navbar.html"); 
+            });
+        </script>
+
+        <!--same for footer-->
+        <link rel="stylesheet" href="/MTBellingham/footer.css"> <!--css-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!--load-->
+        <script> 
+            $(function(){
+              $("#Footer").load("/MTBellingham/footer.html"); 
+            });
+        </script>
+
+        <title>MTBellingham</title>
+    </head>
+    <body>
+        <div id="NavBar"></div>
+
+        <div class="Content">
+            <div class="ContentItem" id="Header">
+                <h1>Must-Rides</h1>
+                <p>
+                    Here are some must rides for Galbraith Mountain that everyone should ride at LEAST once.
+                </p>
+            </div>
+
+            <div class="ContentItem" id="List">
+
+                <h2>North Side</h2>
+                <ul>
+                    <li>SST</li>
+                    <p>
+                        SST is an amazing trail featuring jumps and gaps at the top and amazing flow and unique features as you ride down, 
+                        and a world class rock roll/drop that is definetely something to ride or work up to.
+                    </p>
+                    <li>Cedar Dust</li>
+                    <p>
+                        Cedar Dust is less of a single trail and more of a small set of trails all in the same area. Cedar Dust features green through black drop lines which are short and provide 
+                        a progression for the rider. There is also and green through double black jump lines which are the areas main attraction. In my opinion, the green lines aren't worth riding, 
+                        but all the others are definitely worth checking out.
+                    </p>
+                    <li>Bob's Trail</li>
+                    <p>
+                        Bob's Trail is a short trail that has many small but fun features, great for a warmup or exit lap. The climb is about 30-45 minutes and the descent about 20.
+                    </p>
+                </ul>
+
+            </div>
+        </div>    
+
+
+        <div id="Footer"></div>
+    </body>
+</html>
